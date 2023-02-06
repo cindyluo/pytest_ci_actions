@@ -17,7 +17,7 @@ shell)
 	exec /bin/sh "$@"
 	;;
 test)
-    pytest --env $@
+    pytest
 	;;
 *)
 	echo "unknown command: $1"
